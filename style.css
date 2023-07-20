@@ -1841,10 +1841,14 @@ body {
   }
 
   .navbar .navbar-logo img {
-    margin: 0px;
+    margin: 0px -36px;
     object-fit: contain;
     width: 160px;
     height: 40px;
+  }
+
+  .navbar .hamburger {
+    margin: 0px -36px;
   }
   .hero {
     display: block;
@@ -2433,10 +2437,14 @@ body {
   }
 
   .navbar .navbar-logo img {
-    margin: 0px;
+    margin: 0px -54px;
     object-fit: contain;
     width: 160px;
-    height: 40px;
+    height: 30px;
+  }
+
+  .navbar .hamburger {
+    margin: 0px -36px;
   }
   /* Hero Section Start */
   .hero {
@@ -2744,6 +2752,8 @@ body {
     color: #dadada;
     font-size: 16px;
     padding: 8px 0px;
+    position: relative;
+    top: -8px;
   }
 
   .project-section .project .project-3 i {
@@ -2796,6 +2806,8 @@ body {
     color: #dadada;
     font-size: 16px;
     padding: 8px 0px;
+    position: relative;
+    top: -8px;
   }
 
   .project-section .project .project-5 i {
